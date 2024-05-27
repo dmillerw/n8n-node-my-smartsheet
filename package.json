@@ -30,7 +30,7 @@
   "n8n": {
     "n8nNodesApiVersion": 1,
     "credentials": [
-      "dist/credentials/SmartsheetApi.credentials.js",
+      "dist/credentials/SmartsheetApi.credentials.js"
     ],
     "nodes": [
       "dist/nodes/Smartsheet/Smartsheet.node.js",

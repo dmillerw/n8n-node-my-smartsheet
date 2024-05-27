@@ -53,14 +53,14 @@ export class SmartsheetTrigger implements INodeType {
 						value: 'sheet',
 					},
 				],
-				default: '',
+				default: 'sheet',
 				required: true,
 			},
 			{
-				displayName: "Sheet",
+				displayName: 'Sheet Name or ID',
 				name: "sheetId",
 				type: "options",
-				description: "Choose from the list of available Sheets",
+				description: 'Choose from the list of available Sheets. Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code-examples/expressions/">expression</a>.',
 				// Only show if the webhookType value defined above is 'sheet'
 				displayOptions: {
 					show: {
@@ -71,7 +71,7 @@ export class SmartsheetTrigger implements INodeType {
 				typeOptions: {
 					loadOptionsMethod: 'getSheets',
 				},
-				default: [],
+				default: '',
 				required: true
 			}
 		]

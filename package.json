@@ -1,15 +1,15 @@
 {
   "name": "n8n-nodes-my-smartsheet",
   "version": "0.1.0",
-  "description": "",
+  "description": "Smartsheet Node for N8N, mainly for personal use",
   "keywords": [
     "n8n-community-node-package"
   ],
   "license": "MIT",
   "homepage": "",
   "author": {
-    "name": "",
-    "email": ""
+    "name": "Dylan Miller",
+    "email": "dmillerw@gmail.com"
   },
   "repository": {
     "type": "git",

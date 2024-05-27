@@ -8,7 +8,7 @@ import {
 export class SmartsheetApi implements ICredentialType {
 	name = 'smartsheetApi';
 	displayName = 'Smartsheet API';
-	documentationUrl = '<your-docs-url>';
+	documentationUrl = 'https://smartsheet.redoc.ly/';
 	properties: INodeProperties[] = [
 		{
 			displayName: 'API Key',
